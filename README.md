@@ -1,59 +1,76 @@
-Early Brain Stroke Detection Using Deep Learning
+Sure! Here's the cleaned and professional version of the `README.md` without emojis or informal symbols, formatted properly for GitHub:
 
-This project focuses on the early detection of brain strokes using deep learning techniques applied to CT scan images. Stroke is a major cause of disability and death globally, and early diagnosis is critical for effective treatment. Traditional diagnosis methods are time-consuming and may be prone to human error. This project aims to provide a faster and more accurate solution using AI.
 
-Project Objective:
 
- -Automate the detection of brain strokes from CT scan images
- -Improve accuracy and speed of diagnosis using deep learning
- -Assist radiologists in clinical decision-making with AI support
+```markdown
+# Early Brain Stroke Detection Using Deep Learning
 
-Models Used:
-  ConvNeXt
-  Swin Transformer
-  ResNet-50
-  DenseNet
+This project focuses on the early detection of brain strokes using deep learning techniques applied to CT scan images. Stroke is a major cause of disability and death globally, and early diagnosis is critical for effective treatment. Traditional diagnostic methods are often time-consuming and prone to human error. This project offers a faster and more accurate solution powered by artificial intelligence.
 
-Among these models, DenseNet delivered the highest accuracy at 99.20 percent. All models achieved high performance, with accuracies ranging from 90 percent to 99.20 percent.
+## Project Objective
 
-Dataset:
-Binary classification: Normal vs Stroke
-Input: CT scan images
-Preprocessing included image resizing, normalization, and data augmentation
+- Automate the detection of brain strokes from CT scan images  
+- Improve accuracy and speed of diagnosis using deep learning  
+- Assist radiologists in clinical decision-making with AI support  
+
+## Models Used
+
+- ConvNeXt  
+- Swin Transformer  
+- ResNet-50  
+- DenseNet  
+
+DenseNet achieved the highest accuracy of 99.20 percent. All models performed well, with accuracies ranging between 90 percent and 99.20 percent.
+
+## Dataset
+
+- Type: Binary classification (Normal vs Stroke)  
+- Input: CT scan images  
+- Preprocessing: Image resizing, normalization, and data augmentation  
 
 Note: Due to privacy constraints, the dataset is not publicly included. A similar open-source dataset can be used for testing and experimentation.
 
-Accuracy Results:
-   ConvNeXt - 90.00 percent
-   Swin Transformer - 94.50 percent
-   ResNet-50 - 97.30 percent
-   DenseNet - 99.20 percent
+## Accuracy Results
 
-Technologies Used:
-  Python
-  TensorFlow / PyTorch
-  OpenCV
-  NumPy
-  Matplotlib / Seaborn
+| Model            | Accuracy (%) |
+|------------------|--------------|
+| ConvNeXt         | 90.00        |
+| Swin Transformer | 94.50        |
+| ResNet-50        | 97.30        |
+| DenseNet         | 99.20        |
 
-Project Folder Structure:
+## Technologies Used
 
-dataset - contains CT scan images (not included here)
-models - training scripts for each model
-utils - utility functions for preprocessing and evaluation
-results - graphs and model performance metrics
-main.py - main script to run the models
-README.txt - project overview and documentation
-requirements.txt - list of required Python libraries
+- Python  
+- TensorFlow / PyTorch  
+- OpenCV  
+- NumPy  
+- Matplotlib / Seaborn  
 
-Future Scope:
--Use larger and more diverse datasets for better generalization.
--Improve real-time processing capabilities.
--Develop a clinical application for hospital use.
+## Project Folder Structure
 
+```
+BrainStrokeDetection/
+│
+├── dataset/           # Contains CT scan images (not included)
+├── models/            # Training scripts for each model
+├── utils/             # Utility functions for preprocessing and evaluation
+├── results/           # Graphs and model performance metrics
+├── main.py            # Main script to run the models
+├── README.md          # Project overview and documentation
+└── requirements.txt   # List of required Python libraries
+```
 
-Author Details:
+## Future Scope
 
-Author: Anant Chikmurge
-Email: anantchikmurge2003@gmail.com
-Institution: Presidency University, Bengaluru, India
+- Use larger and more diverse datasets for better generalization  
+- Improve real-time processing capabilities  
+- Develop a clinical application for hospital integration  
+
+## Contributor
+
+- Name: Anant Chikmurge  
+- Email: anantchikmurge2003@gmail.com  
+- Institution: Presidency University, Bengaluru, India
+```
+
