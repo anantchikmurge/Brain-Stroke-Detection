@@ -3,13 +3,13 @@ Early Brain Stroke Detection Using Deep Learning
 
 This project focuses on the early detection of brain strokes using deep learning techniques applied to CT scan images. Stroke is a major cause of disability and death globally, and early diagnosis is critical for effective treatment. Traditional diagnostic methods are often time-consuming and prone to human error. This project offers a faster and more accurate solution powered by artificial intelligence.
 
-  Project Objective
+Project Objective
 
 - Automate the detection of brain strokes from CT scan images  
 - Improve accuracy and speed of diagnosis using deep learning  
 - Assist radiologists in clinical decision-making with AI support  
 
-  Models Used
+Models Used
 
 - ConvNeXt  
 - Swin Transformer  
@@ -18,7 +18,7 @@ This project focuses on the early detection of brain strokes using deep learning
 
 DenseNet achieved the highest accuracy of 99.20 percent. All models performed well, with accuracies ranging between 90 percent and 99.20 percent.
 
-  Dataset
+Dataset
 
 - Type: Binary classification (Normal vs Stroke)  
 - Input: CT scan images  
@@ -26,7 +26,7 @@ DenseNet achieved the highest accuracy of 99.20 percent. All models performed we
 
 Note: Due to privacy constraints, the dataset is not publicly included. A similar open-source dataset can be used for testing and experimentation.
 
-  Accuracy Results
+Accuracy Results
 
 | Model            | Accuracy (%) |
 |------------------|--------------|
@@ -35,7 +35,7 @@ Note: Due to privacy constraints, the dataset is not publicly included. A simila
 | ResNet-50        | 97.30        |
 | DenseNet         | 99.20        |
 
-  Technologies Used
+Technologies Used
 
 - Python  
 - TensorFlow / PyTorch  
@@ -43,13 +43,13 @@ Note: Due to privacy constraints, the dataset is not publicly included. A simila
 - NumPy  
 - Matplotlib / Seaborn  
 
-  Future Scope
+Future Scope
 
 - Use larger and more diverse datasets for better generalization  
 - Improve real-time processing capabilities  
 - Develop a clinical application for hospital integration  
 
-  Contributor
+Contributor
 
 - Name: Anant Chikmurge  
 - Email: anantchikmurge2003@gmail.com  
