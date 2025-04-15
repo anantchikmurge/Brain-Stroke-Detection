@@ -1,9 +1,5 @@
-Sure! Here's the cleaned and professional version of the `README.md` without emojis or informal symbols, formatted properly for GitHub:
 
-
-
-```markdown
-# Early Brain Stroke Detection Using Deep Learning
+Early Brain Stroke Detection Using Deep Learning
 
 This project focuses on the early detection of brain strokes using deep learning techniques applied to CT scan images. Stroke is a major cause of disability and death globally, and early diagnosis is critical for effective treatment. Traditional diagnostic methods are often time-consuming and prone to human error. This project offers a faster and more accurate solution powered by artificial intelligence.
 
@@ -47,10 +43,6 @@ Note: Due to privacy constraints, the dataset is not publicly included. A simila
 - NumPy  
 - Matplotlib / Seaborn  
 
-  Project Folder Structure
-
-
-
   Future Scope
 
 - Use larger and more diverse datasets for better generalization  
@@ -62,5 +54,5 @@ Note: Due to privacy constraints, the dataset is not publicly included. A simila
 - Name: Anant Chikmurge  
 - Email: anantchikmurge2003@gmail.com  
 - Institution: Presidency University, Bengaluru, India
-```
+
 
